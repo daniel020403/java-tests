@@ -7,7 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="checksum" />
+        <module name="riak" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="riak-plain-text-object" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
